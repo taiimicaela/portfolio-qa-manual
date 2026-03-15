@@ -9,7 +9,7 @@ Este documento contém os cenários de teste manuais para as principais funciona
 | **CT02** | Login com senha incorreta | 1. Acessar o site <br> 2. Digitar `standard_user` <br> 3. Digitar `senha_errada` <br> 4. Clicar em Login | Exibir mensagem: "Username and password do not match". | ✅ Passou |
 | **CT03** | Adicionar produto ao carrinho | 1. Estar logado <br> 2. Escolher um produto <br> 3. Clicar em "Add to cart" | O botão deve mudar para "Remove" e o ícone do carrinho marcar "1". | ✅ Passou |
 | **CT04** | Remover produto do carrinho | 1. Ter um item no carrinho <br> 2. Clicar no botão "Remove" | O botão deve voltar para "Add to cart" e o contador do carrinho sumir. | ✅ Passou |
-| **CT05** | Login com usuário bloqueado | 1. Acessar o site <br> 2. Digitar `locked_out_user` <br> 3. Digitar `secret_sauce` <br> 4. Clicar em Login | Exibir mensagem: "Sorry, this user has been locked out". | ⬜ Pendente |
+| **CT05** | Login com usuário bloqueado | 1. Acessar o site <br> 2. Digitar `locked_out_user` <br> 3. Digitar `secret_sauce` <br> 4. Clicar em Login | Exibir mensagem: "Sorry, this user has been locked out". | ✅ Passou ([Ver Evidência](../evidencias/evidencias/evidencia-ct05-usuario-bloqueado.png)) |
 
 ---
 *Legenda: ⬜ Pendente | ✅ Passou | ❌ Falhou*
