@@ -1,3 +1,7 @@
+> **⚠️ NOTA DE SIMULAÇÃO:** Este documento é um exemplo técnico criado para fins de portfólio. 
+> O site testado (Sauce Demo) funcionou corretamente, mas este relatório demonstra como eu documentaria uma falha real de segurança.
+---
+
 # Bug Report: Usuário bloqueado consegue realizar login 🐞
 
 **ID:** BUG001  
